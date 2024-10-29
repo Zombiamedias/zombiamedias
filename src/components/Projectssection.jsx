@@ -4,10 +4,10 @@ import React from 'react';
 import Card from "./card.jsx";
 import IconLink from "./Iconlink.jsx";
 // local images
-import card1 from "../assets/images/card1.jpeg";
-import card2 from "../assets/images/card2.jpg";
+import card1 from "./assets/images/card1.jpeg";
+import card2 from "./assets/images/card2.jpg";
 
-import bannerEoS from "../assets/images/bannerEoS.png";
+import bannerEoS from "./assets/images/bannerEoS.png";
 // icons react
 import { VscGithub } from "react-icons/vsc";
 import { FaItchIo } from "react-icons/fa";

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProfilePhoto from "../assets/images/ProfilePhoto.jpeg";
+import ProfilePhoto from "./assets/images/ProfilePhoto.jpeg";
 
 
 const Aboutmesection = () => {
