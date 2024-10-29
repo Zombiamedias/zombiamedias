@@ -7,5 +7,10 @@ export default defineConfig({
   base: 'https://zombiamedias.github.io/zombiamedias', // Esto es importante para rutas relativas
   build:{
     outDir:'dist  ',
+    rollupOptions: {
+      input: {
+        main: './index.html',
+      },
+    }
   }
 })
