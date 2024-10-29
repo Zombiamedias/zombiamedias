@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Animation from "./animation.jsx"
-import overlay from "./assets/videos/overlay.mp4";
+import overlay from "@/assets/videos/overlay.mp4";
 const Header = () => {
   return (
     <header >
