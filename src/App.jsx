@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar.jsx';
 import Header from './components/Header.jsx';
 import Projects from './components/Projectssection.jsx';
-import Aboutmesection from './components/AboutMe.jsx';
+import Aboutmesection from './components/Aboutme.jsx';
 import Futer from './components/Contactme.jsx';
 
 const App = () => {
