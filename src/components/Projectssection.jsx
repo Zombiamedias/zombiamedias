@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Components
-import Card from "./card.jsx";
+import Card from "./Card.jsx";
 import IconLink from "./Iconlink.jsx";
 // local images
 import card1 from "@/assets/images/card1.jpeg";
