@@ -2,7 +2,7 @@
   "name": "zombiamedias",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://zombiamedias.github.io/",
+  "homepage": "https://zombiamedias.github.io/zombiamedias/",
   "type": "module",
   "scripts": {
     "dev": "vite",
