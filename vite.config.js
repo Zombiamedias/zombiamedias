@@ -5,8 +5,13 @@ export default defineConfig({
   plugins: [react()],
 
   base: 'https://zombiamedias.github.io/zombiamedias', // Esto es importante para rutas relativas
-  build:{
-    outDir:'dist  '
-
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    }
   }
 })
