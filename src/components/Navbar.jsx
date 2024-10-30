@@ -69,12 +69,12 @@ const Navbar = () => {
             >
               PROYECTOS
             </a>
-            <a
+            {/* <a
               href="#"
               className=" text-[#def244] px-3 py-2 w-full hover:bg-[#4f46e5] transition delay-150"
             >
               EXPERIENCIA
-            </a>
+            </a> */}
             <a
               href="#About"
               className=" text-[#def244] px-3 py-2 w-full hover:bg-[#4f46e5] transition delay-150"
