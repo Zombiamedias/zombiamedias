@@ -34,7 +34,7 @@ const Projects = () => {
                 title="Mokepon"
                 text="Con un nombre alusivo a la famosa serie, un pequeño sistema de batallas hecho en puro Javascript, Html y css ELIGE A TU MOKEPON Y GANA ANTES DE PERDER 3 VIDAS"
               >
-                {<IconLink href="">{<VscGithub />}</IconLink>}
+                {<IconLink href="https://github.com/Zombiamedias/Mokepon-project">{<VscGithub />}</IconLink>}
               </Card>
               <Card
                 src={card2}
