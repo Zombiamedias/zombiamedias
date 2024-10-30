@@ -6,19 +6,19 @@ import path from 'path'
 export default defineConfig({
 
 
-  plugins: [react()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src')
-    }
-  },
-  base: '/zombiamedias/',
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
+plugins: [react()],
+resolve: {
+  alias: {
+    '@': path.resolve(__dirname, './src')
+  }
+},
+base: './',
+build: {
+  outDir: 'dist',
+  assetsDir: 'assets',
+  rollupOptions: {
+    output: {
+      manualChunks: undefined,
       },
     }
   }
