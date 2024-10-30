@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // Components
 import Card from "./Card.jsx";
@@ -14,7 +14,10 @@ import { FaItchIo } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <article id="Projects" className="flex flex-col space-y-10 items-center w-full h-full py-11 justify-center">
+    <article
+      id="Projects"
+      className="flex flex-col space-y-10 items-center w-full h-full py-11 justify-center"
+    >
       <section className="px-0 py-1 bg-softBlue rounded-xl mx-4 w-11/12 ">
         <h1 className="p-0 py-24 ssm:text-[3.5rem] font-pixel text-center text-pear font-bold w-full h-12 mx-1 ssm:text-2xl lg:text-[5vw] ">
           PROYECTOS
@@ -39,13 +42,17 @@ const Projects = () => {
                 title="Huellitas"
                 text="Proyecto en desarrollo: un eCommerce de servicios de veterinaria, proyecto de graduacion de bootcamp, participe en la parte de estilos y visuales con la creacion de la interfaz de pagina"
               >
-                {<IconLink href="https://github.com/Zombiamedias/grupo_12_huellitas">{<VscGithub />}</IconLink>}
+                {
+                  <IconLink href="https://github.com/Zombiamedias/grupo_12_huellitas">
+                    {<VscGithub />}
+                  </IconLink>
+                }
               </Card>
             </ol>
           </li>
           <li className="py-8">
-          <br />
-          <h2 className="w-full font-pixel text-center font-bold ssm:text-[2.5rem]  text-[#FFF] py-4 px-0 ssm:text-xl md:text-[2vw]">
+            <br />
+            <h2 className="w-full font-pixel text-center font-bold ssm:text-[2.5rem]  text-[#FFF] py-4 px-0 ssm:text-xl md:text-[2vw]">
               UNITY
             </h2>
             <ol className="flex flex-row justify-around ">

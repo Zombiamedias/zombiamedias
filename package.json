@@ -1,12 +1,11 @@
 {
   "name": "zombiamedias",
   "private": true,
-  "homepage": "https://zombiamedias.github.io/zombiamedias/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp dist/index.html dist/404.html",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

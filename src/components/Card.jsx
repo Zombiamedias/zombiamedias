@@ -1,8 +1,6 @@
-
 import React, { Children, useState } from "react";
 
-
-const Card = ({ text, title, src, alt,children }) => {
+const Card = ({ text, title, src, alt, children }) => {
   var iconCall;
   return (
     <li>
