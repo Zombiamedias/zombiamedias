@@ -1,13 +1,16 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 
 // Components
 import Card from "./Card.jsx";
 import IconLink from "./Iconlink.jsx";
 // local images
-import card1 from "@/assets/images/card1.jpeg";
-import card2 from "@/assets/images/card2.jpg";
+import card1 from "../assets/card1.jpeg";
+import card2 from "../assets/card2.jpg";
+import bannerEoS from "../assets/bannerEoS.png";
+import NectarQuest from "../assets/NectarQuest.gif";
+import TrickOrTrade from "../assets/TrickOrTrade.png";
 
-import bannerEoS from "@/assets/images/bannerEoS.png";
 // icons react
 import { VscGithub } from "react-icons/vsc";
 import { FaItchIo } from "react-icons/fa";
@@ -56,22 +59,34 @@ const Projects = () => {
               UNITY
             </h2>
             <ol className="flex flex-row justify-around ">
-              <Card
+            <Card
                 title="Echoes Of The Subconscious"
-                text="Plataforma 2d, desarrolle en las mecanicas, movimiento de la camara, interaccion con enemigos y su entorno"
+                text="Plataforma 2d, desarrolle en las mecánicas, movimiento de la cámara, interacción con enemigos y su entorno"
                 src={bannerEoS}
                 alt="bannerEoS"
               >
-                {
-                  <IconLink href="https://stephkoala.itch.io/echoes-of-the-subconscious">
-                    {<FaItchIo />}
-                  </IconLink>
-                }
-                {
-                  <IconLink href="https://github.com/Zombiamedias/Dig-Deeper">
-                    {<VscGithub />}
-                  </IconLink>
-                }
+                { <IconLink href="https://stephkoala.itch.io/echoes-of-the-subconscious"> {<FaItchIo />} </IconLink> }
+                { <IconLink href="https://github.com/Zombiamedias/Dig-Deeper"> {<VscGithub />} </IconLink> }
+              </Card>
+
+              <Card 
+                title="Truco o Trato: La Leyenda de Calabazo"
+                text="Desarrollé el patrullaje usando un mapeo de terreno a través del sistema NavMesh y un rango de los enemigos para que tengan su sistema de combate cuerpo a cuerpo o distancia según su rango de visión"
+                src={TrickOrTrade}
+                alt="TrickOrTrade"
+              >
+                { <IconLink href="https://stephkoala.itch.io/gjam-2"> {<FaItchIo />}</IconLink> }
+                { <IconLink href="https://github.com/dan-ruiz/gameJam2-grupo3"> {<VscGithub />} </IconLink> }
+              </Card>
+
+              <Card 
+                title="Nectar Quest"
+                text="Lidere desde el tipo de juego hasta la mecánica desde su creación, y elegir el arte que se usó en el juego para el rendimiento"
+                src={NectarQuest}
+                alt="NectarQuest"
+              >
+                { <IconLink href="https://j4zo.itch.io/nectarquest"> {<FaItchIo />} </IconLink> }
+                { <IconLink href="https://github.com/Adriana-94/Videojuegos"> {<VscGithub />} </IconLink> }
               </Card>
             </ol>
           </li>
