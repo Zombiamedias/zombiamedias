@@ -5,11 +5,11 @@ import React from "react";
 import Card from "./Card.jsx";
 import IconLink from "./Iconlink.jsx";
 // local images
-import card1 from "../assets/card1.jpeg";
-import card2 from "../assets/card2.jpg";
-import bannerEoS from "../assets/bannerEoS.png";
-import NectarQuest from "../assets/NectarQuest.gif";
-import TrickOrTrade from "../assets/TrickOrTrade.png";
+import card1 from "../assets/images/card1.jpeg";
+import card2 from "../assets/images//card2.jpg";
+import bannerEoS from "../assets/images/bannerEoS.png";
+import NectarQuest from "../assets/images/NectarQuest.gif";
+import TrickOrTrade from "../assets/images/TrickOrTrade.png";
 
 // icons react
 import { VscGithub } from "react-icons/vsc";
