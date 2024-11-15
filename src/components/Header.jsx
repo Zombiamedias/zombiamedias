@@ -17,7 +17,7 @@ const Header = () => {
           />
         </li>
         <li className="start ssm:w-full  font-bold font-space md:text-6xl md:pl-32 md:p-0 ssm:text-xl ssm:pt-10 ssm:pl-20 ">
-          <h1 className="ssm:invisible md:visible">I´m a </h1> <Animation />
+          <h1 className="ssm:invisible md:visible select-none">I´m a </h1> <Animation />
         </li>
       </ul>
     </header>
