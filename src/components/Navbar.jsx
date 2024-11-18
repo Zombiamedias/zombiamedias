@@ -3,8 +3,10 @@ import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import LogoWhite from "@/assets/images/LogoWhite.png";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const {t} = useTranslation("global");
   const [toggle, setToggle] = useState(false);
   function openMenu() {
     setToggle(true);
@@ -22,7 +24,7 @@ const Navbar = () => {
             className=" size-auto w-8 h-12 px-0 py-0 m-0  "
           />
           <span className="text-[#def244] p-2 select-none">
-            Michael Martínez
+            Michael Martinez
           </span>
         </li>
         <li className="flex-1  items-center justify-center w-3/5 h-auto gap-20 text-darkViolet no-underline ">

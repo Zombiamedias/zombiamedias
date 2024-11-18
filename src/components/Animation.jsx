@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 const Animation = () => {
   return (
     <>
-      <TypeAnimation className="flex text-center text-[#4f46e5] select-none"
+      <TypeAnimation className=" text-center text-[#4f46e5] select-none  "
         sequence={[
           "Debug.log(Game Dev);  ",
           2000,

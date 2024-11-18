@@ -5,6 +5,7 @@ import Header from "./components/Header.jsx";
 import Projects from "./components/Projectssection.jsx";
 import Aboutmesection from "./components/Aboutme.jsx";
 import Futer from "./components/Contactme.jsx";
+import Skills from "./components/Skills.jsx";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Projects />
+      <Skills/>
       <Aboutmesection />
       <Futer />
     </div>

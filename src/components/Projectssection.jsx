@@ -18,19 +18,16 @@ import { FaItchIo } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <article id="Projects" className="flex flex-col py-10 items-center w-full h-full justify-center gap-y-10">
+    <article id="Projects" className="flex flex-col py-10 items-center w-full h-auto justify-center gap-y-10 text-center text-wrap ">
       <section className="gap-y-10 py-10 bg-softBlue rounded-xl mx-4 w-11/12 ">
-        <h1 className="p-[24px] ssm:text-[3.5rem] font-pixel text-center text-pear font-bold w-full h-12 mx-1 ssm:text-2xl lg:text-[5vw] ">
+        <h1 className="w-full h-auto  font-pixel text-pretty text-center text-pear font-bold  mx-1 lg:text-[5vw] ssm:text-[2rem] ">
           PROYECTOS
         </h1>
-        <br />
-        <ul className="flex-wrap h-full text-center p-10 ">
+        <ul className="flex-wrap h-auto text-center ">
           <li className="py-8">
-            <br />
-            <h2 className="w-full font-pixel text-center font-bold ssm:text-[2.5rem]  text-[#FFF] py-4 px-0 md:text-[3vw]">
+            <h2 className="w-full h-auto py-4 font-pixel text-center font-bold text-[#FFF] ssm:text-[1.5rem] md:text-[3vw]">
               UNITY
             </h2>
-            <br />
             <ol className="flex justify-center items-center space-20 ssm:flex-col md:flex-row gap-20">
             <Card
                 title="Echoes Of The Subconscious"
@@ -63,7 +60,7 @@ const Projects = () => {
               </Card>
             </ol>
           </li>
-          <h2 className="w-full font-pixel text-center font-bold ssm:text-[2.5rem]  text-[#FFF] py-4 px-0 md:text-[3vw]">
+          <h2 className="w-full font-pixel text-center font-bold ssm:text-[1.5rem]  text-[#FFF] py-4 px-0 md:text-[3vw]">
             WEB
           </h2>
           <br />
