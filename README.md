@@ -3,3 +3,5 @@
 
 
 ## <div align="center"> My name is Michael Martinez & I'm a Game developer / Game design </div>
+
+My story began in this industry in 2024 when I graduated as a Unity developer at Generación Colombia and later in 2025 I was hired by EPAM to be a game tester in Bogotá, Colombia; in the middle of that year I starting a technology degree  in **Videogames and interactive enviroments of SENA** colombia
