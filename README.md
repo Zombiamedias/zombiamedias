@@ -4,7 +4,7 @@
 
 My story began in this industry in 2024 when I graduated as a Unity developer at Generación Colombia and later in 2025 I was hired by EPAM to be a game tester in Bogotá, Colombia; in the middle of that year I starting a technology degree in **Videogames and interactive enviroments of SENA** colombia
 
-## My magic powers
+## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXZ6N2VuOG51Z2h6ZWNhaWE3anBvdmZhNjI0YmExOHU0YnloM2p0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/GMUoXE33DbrJPuLL5u/giphy.gif" width=60> My magic powers
 
 ![Static Badge](https://img.shields.io/badge/unreal%20engine-gray?style=for-the-badge&logo=unrealengine&logoColor=%23FFFFFF&labelColor=%23000000)
 ![Static Badge](https://img.shields.io/badge/unity-gray?style=for-the-badge&logo=unity&logoColor=%23FFFFFF&labelColor=%23000000)
