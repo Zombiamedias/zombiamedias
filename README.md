@@ -9,5 +9,6 @@ My story began in this industry in 2024 when I graduated as a Unity developer at
 ![Static Badge](https://img.shields.io/badge/Unreal-Engine?style=for-the-badge&logo=unrealengine&logoColor=white&logoSize=large&labelColor=gray&color=black)
 ![Static Badge](https://img.shields.io/badge/Unity-engine?style=for-the-badge&logo=unity&logoColor=black&labelColor=white&color=gray)
 ![Static Badge](https://img.shields.io/badge/jira-white?style=for-the-badge&logo=flat&logoColor=%230052CC&labelColor=%23FFFFFF&color=black) <br>
+![Static Badge](https://img.shields.io/badge/html-orange?style=for-the-badge&logo=html5&logoColor=%23E34F26&labelColor=%23FFFFFF)
 
 
