@@ -6,9 +6,13 @@ My story began in this industry in 2024 when I graduated as a Unity developer at
 
 ## My magic powers
 
-![Static Badge](https://img.shields.io/badge/Unreal-Engine?style=for-the-badge&logo=unrealengine&logoColor=white&logoSize=large&labelColor=gray&color=black)
-![Static Badge](https://img.shields.io/badge/Unity-engine?style=for-the-badge&logo=unity&logoColor=black&labelColor=white&color=gray)
-![Static Badge](https://img.shields.io/badge/jira-white?style=for-the-badge&logo=flat&logoColor=%230052CC&labelColor=%23FFFFFF&color=black)
+![Static Badge](https://img.shields.io/badge/unreal%20engine-gray?style=for-the-badge&logo=unrealengine&logoColor=%23FFFFFF&labelColor=%23000000)
+![Static Badge](https://img.shields.io/badge/unity-gray?style=for-the-badge&logo=unity&logoColor=%23FFFFFF&labelColor=%23000000)
+![Static Badge](https://img.shields.io/badge/jira-%230052CC?style=for-the-badge&logo=jira&logoColor=%230052CC&labelColor=%23FFFFFF)
 ![Static Badge](https://img.shields.io/badge/html-orange?style=for-the-badge&logo=html5&logoColor=%23E34F26&labelColor=%23FFFFFF)
+![Static Badge](https://img.shields.io/badge/css-%23663399?style=for-the-badge&logo=css&logoColor=%23663399&labelColor=%23FFFFFF)
+![Static Badge](https://img.shields.io/badge/javascript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=%23FFFFFF&labelColor=%23000000)
+![Static Badge](https://img.shields.io/badge/react-%2361DAFB?style=for-the-badge&logo=react&logoColor=%2361DAFB&labelColor=%23FFFFFF&color=%2361DAFB)
+
 
 
