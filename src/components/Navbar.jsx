@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import LogoWhite from "@/assets/images/LogoWhite.png";
-import { useTranslation } from "react-i18next";
+
 
 const Navbar = () => {
-  const {t} = useTranslation("global");
+  
   const [toggle, setToggle] = useState(false);
   function openMenu() {
     setToggle(true);
@@ -16,7 +16,7 @@ const Navbar = () => {
   }
   return (
     <article className="bg-[#260273] text-[#def244] font-pixel h-auto">
-      <nav className="flex items-center justify-between align-middle p-7 lg:flex-row  text-xl ">
+      <nav className="flex items-center justify-between align-middle p-7 lg:flex-row text-xl ">
         <li className="w-2/5 flex flex-1 align-middle justify-start ">
           <img
             src={LogoWhite}
@@ -33,20 +33,20 @@ const Navbar = () => {
               href="#Projects"
               className=" text-[#def244] px-3 py-2 rounded-full hover:bg-[#4f46e5] transition delay-150"
             >
-              PROYECTOS
+              Projects
             </a>
             {/* <a id="Experience" href="#" className="text-[#def244] px-3 py-2 rounded-full hover:bg-[#4f46e5] transition delay-150">EXPERIENCIA</a> */}
             <a
               href="#About"
               className=" text-[#def244] px-3 py-2 rounded-full hover:bg-[#4f46e5] transition delay-150"
             >
-              SOBRE MI
+              About Me
             </a>
             <a
               href="#Contact"
               className=" text-[#def244] px-3 py-2 rounded-full hover:bg-[#4f46e5] transition delay-150"
             >
-              CONTÁCTAME
+              Contact Me
             </a>
           </div>
         </li>
@@ -69,7 +69,7 @@ const Navbar = () => {
               href="#Projects"
               className=" text-[#def244] px-3 py-2 w-full hover:bg-[#4f46e5] transition delay-150"
             >
-              PROYECTOS
+              Projects
             </a>
             {/* <a
               href="#"
@@ -81,13 +81,13 @@ const Navbar = () => {
               href="#About"
               className=" text-[#def244] px-3 py-2 w-full hover:bg-[#4f46e5] transition delay-150"
             >
-              SOBRE MI
+              About Me
             </a>
             <a
               href="#Contact"
               className=" text-[#def244] px-3 py-2 w-full hover:bg-[#4f46e5] transition delay-150"
             >
-              CONTÁCTAME
+              Contact Me
             </a>
           </div>
         ) : (

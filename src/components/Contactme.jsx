@@ -19,13 +19,13 @@ const Futer = () => {
         <div className="flex flex-row items-center gap-10 w-full justify-center">
             <IconLink href="https://wa.me/+573012955607"> {<BsWhatsapp />} </IconLink>
             <IconLink href="mailto:nixhydev@gmail.com"> {<HiMail />} </IconLink>
-            <IconLink href="www.linkedin.com/in/zombiamedias"> {<FaLinkedin />} </IconLink>
+            <IconLink href="https://www.linkedin.com/in/michael-martinez-unity/?locale=en_US"> {<FaLinkedin />} </IconLink>
             <IconLink href="https://github.com/Zombiamedias">{<FaGithubAlt />}</IconLink>
         </div>
-        <h4 className=" text-center text-bold">↑ Contactame ↑</h4>
+        <h4 className=" text-center text-bold">↑ Contact Me ↑</h4>
       </div>
       <h3 className=" text-center flex-1 text-bold">
-        ® 2024 Derechos reservados Michael Felipe Martínez Baquero
+        ® 2024 Michael Felipe Martínez Baquero Copyright
       </h3>
     </footer>
   );

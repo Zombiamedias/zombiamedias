@@ -16,8 +16,8 @@ const Header = () => {
             alt="overlay background videogame"
           />
         </li>
-        <li className="start flex w-full min-h-16 text-center font-bold font-space ssm:p-0 md:p-x-12px ssm:text-[6vh] md:text-6xl ">
-          <h1 className="ssm:invisible md:visible select-none">Game </h1> <Animation />
+        <li className="flex flex-col w-full min-h-16 place-items-center text-center font-bold font-space ssm:p-0 md:p-x-12px ssm:text-[6vh] md:text-6xl ">
+          <h1 className="ssm:visible select-none">Game </h1> <Animation />
         </li>
       </ul>
     </header>

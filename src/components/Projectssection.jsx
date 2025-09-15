@@ -60,33 +60,7 @@ const Projects = () => {
               </Card>
             </ol>
           </li>
-          <h2 className="w-full font-pixel text-center font-bold ssm:text-[1.5rem]  text-[#FFF] py-4 px-0 md:text-[3vw]">
-            WEB
-          </h2>
           <br />
-          <li className="p-2 ">
-            <ol className="flex flex-row justify-center items-center space-20 ssm:flex-col md:flex-row gap-20">
-              <Card
-                src={card1}
-                title="Mokepon"
-                text="Con un nombre alusivo a la famosa serie, un pequeño sistema de batallas hecho en puro Javascript, Html y css ELIGE A TU MOKEPON Y GANA ANTES DE PERDER 3 VIDAS"
-              >
-                {<IconLink href="https://github.com/Zombiamedias/Mokepon-project">{<VscGithub />}</IconLink>}
-              </Card>
-              <Card
-                src={card2}
-                alt="Imagen web huellitas"
-                title="Huellitas"
-                text="Proyecto en desarrollo: un eCommerce de servicios de veterinaria, proyecto de graduacion de bootcamp, participe en la parte de estilos y visuales con la creacion de la interfaz de pagina"
-              >
-                {
-                  <IconLink href="https://github.com/Zombiamedias/grupo_12_huellitas">
-                    {<VscGithub />}
-                  </IconLink>
-                }
-              </Card>
-            </ol>
-          </li>
         </ul>
       </section>
     </article>
