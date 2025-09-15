@@ -7,9 +7,9 @@ const Animation = () => {
     <>
       <TypeAnimation className=" text-center text-[#4f46e5] select-none  "
         sequence={[
-          "Developer;  ",
+          " Developer ",
           2000,
-          "Design",
+          " Design ",
           2000,
           // () => {
           //   console.log("Sequence completed"); // Place optional callbacks anywhere in the array
